@@ -5,20 +5,20 @@ It was paramount for me to secure his interest with solid data to guarantee his 
 
 ## Surfs Up Results:
 After thorough cleaning of data, meticulous manipulation and analysis. these were the main points of discussion between myself and W. Avy:
-- There are approximately 70,000 senior employees across all departments that are entering the retirement phase in the near future.
-- The most retiting title is Senior Engineer, with around 25,916 entering the retirement phase, While management seems to be the area least senisitive to the upcoming changes with only 2 managers matching the retirement criteria.
-  
-![Titles_Count](https://github.com/A-Mossa/Pewlett-Hackard-Analysis/blob/main/titlescount.png)
+- June being arguably the best month of summer in the northern hemi-sphere, we saw a trend of consistent nice warm weather throughout the month. With the average temperatures around 75F (~24Centigrade), and with 3.25 Standard deviation, giving us the coolest day of 64F and the warmest day recording 85F
 
-- The mentorship program that management proposed, seems to somewhat alleviate the problem but in no means a root solution to depend on.
-- A decent pool of Engineers ,Senior Engineers, and Senior Staff looks to be viable candidates for mentorship to temporarily keep operations going.
+![June_Tmps](https://github.com/A-Mossa/surfs_up/blob/main/ResourceImages/JuneTemps.png)
 
-![Candidate_Count](https://github.com/A-Mossa/Pewlett-Hackard-Analysis/blob/main/Candpool.png)
+- December being the entry month of winter season in the northern hemi-sphere , there is a noticable inconsistency with the warther. Although the average temperature was around 71F (21.5C), the Standard deviation was around 3.75, giving us a new lowest temperature of 56F and a warmest of 83F.
 
-## Analysis Summary
-This analysis was carried out with mainly two questions in mind:
-- ***'How many roles will need to be filled as the "silver tsunami" begins to make an impact?'***
-  - the ideal answer to that question is to replace exactly as much employees as the ones that are leaving, that's around 70000 across the entire company. However, if the company is planning on enhancing and updating its management chain structure to the latest standards, it would require around 2/3 of the total amount. Human Resources would be more qualified to give the definitive answer on that matter.
+![Dec_temps](https://github.com/A-Mossa/surfs_up/blob/main/ResourceImages/Dectemps.png)
 
-- ***'Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?'***
-  - Based on the outcome of that task, the short answer is yes; Altough, they might be spread too thin to cover as much eligible candidates as possible. This was determinded to be an effective temporary measure, but an ineffective long term solution.
+- Despite the two months not being identical, the differences in recorded temperatures within 6 months are not drastically different due to the temperate nature of the islands.
+ 
+## Analysis Results
+Analyzing the two temperatures observed queries revealed some interesting points of to consider:
+- The weather data pulled from the stations on Oahu Indicated that the weather was congruent with the business idea. The weather proved temperate enough for surfing and ice cream pretty much all-year round, from the beginning of summer till the beginning of winter.
+- Given the time and resources, I would like to run more queries to get a solid background on more weather factors in order to gain a better understanding of the overall picture of the city and make data-driven decisions in regard to the business, three of these queries would be:
+  - Queries on the rain fall perceptation levels through out the year, to identify the duration in which the location is suitable for surfing.
+  - Queries on the wind data to make sure that doesn't interfere with potential customers enjoying the ocean.
+  - Queries on at least two more data points to better gauge the year round weather of Oahu.
